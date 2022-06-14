@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Imagem Dinamica</h1>
+    <p>tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/fotop.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/fotom.png" type="image/png">
+        <img src="imagens/fotog.png" alt="imagem flexivel">
+    </picture>
+    
+    <h1>Reproduzindo Audio</h1>
+    <p>Vamos aprender a reproduzir audio em HTML</p>
+    <audio preload="metadata" controls autoplay loop>
+        <source src="midias/interestelar.mp3" type="audio/mpeg">
+        <source src="midias/interestelar.ogg" type="audio/ogg">
+        <source src="midias/interestelar.wav" type="audio/wav">
+        <p>
+            <a href="midias/interestelar.mp3">infelizmente nao foi possivel reproduzir no seu navegador mais voce pode fazer o download do arquivo</a>
+        </p>
+    </audio>
+
+
+</body>
+</html>

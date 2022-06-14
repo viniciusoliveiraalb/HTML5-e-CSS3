@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family:'Times New Roman', Times, serif;
+            /* medidas absolutas 
+            cm, mm, in, px, pt, pc
+
+            medidas relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente é igual a 1em
+            */
+            font-size: 16px;
+        }
+
+        h1{
+            /*shorthand font 
+            º1 font-style > font-weight > font-size > font-family 
+
+            ao invés de usar isso aqui embaixo
+
+            font-family: "work sans", sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic; */
+
+            font: italic bolder 3em 'works san', 'sans serif';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolor vel dignissimos, illum quo quisquam maxime officia repellendus cumque! Est blanditiis hic cumque, doloribus magnam aperiam consectetur minus magni voluptates.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, expedita quae impedit modi temporibus itaque illum quasi incidunt labore consequuntur! Voluptates nemo, iusto saepe beatae quibusdam culpa quaerat! Sunt, natus?
+    </p>
+
+    <h2>Substituto do exercício.</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis suscipit in repudiandae corporis eos deleniti mollitia rerum! Necessitatibus veritatis repellendus itaque quia, aliquam nulla quaerat voluptatibus error reprehenderit! Beatae, natus.
+    </p>
+</body>
+</html>
